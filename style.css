@@ -1,14 +1,27 @@
+
+
 body {background-color: #f0fff0;
     font-size: 1em;
     font-family: 'Courier New', Courier, monospace;}
 
 article {
+    max-width: 90%;
     width: 700px;
     margin: auto;
     background-color: white;
-    padding: 20px;
+    padding: 5%;
 }
 
 p {
     line-height: 1.5em;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+  .menu {
+    flex-direction: column;
+  }
+}
+
