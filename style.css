@@ -1,4 +1,5 @@
 
+html {scroll-behavior: smooth;}
 
 body {background-color: #f0fff0;
     font-size: 1em;
@@ -49,3 +50,20 @@ padding: 5%;
   }
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  background-color: #f0fff098;
+  color:grey;
+  font-family: Arial;
+  font-weight:bold;
+  padding: 2%;
+  border: 2px solid white;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
