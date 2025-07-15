@@ -26,6 +26,8 @@ p > img {
 
 article h1 {
   font-size: 2rem;   /* or 32px */
+  text-align: center;
+  text-transform: uppercase;
 }
 
 article h2 {
